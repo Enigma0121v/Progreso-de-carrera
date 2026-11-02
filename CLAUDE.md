@@ -31,12 +31,19 @@ Título: "Agenda Virtual de la UTN". Es un proyecto independiente, sin vínculo 
    distinguir "puede cursar" de "puede rendir final". Verificar con las ordenanzas oficiales
    y con los archivos de `planes-de-estudio/`.
 3. **Nota por materia aprobada** y **promedio** calculado, visible junto al panel de progreso.
-4. **Horas** (a definir, ver pendientes): mostrar horas en el plan / progreso.
+   - La nota es **personal y privada por defecto**. Cada usuario puede elegir mostrarla (perfil público opcional).
+   - Futuro (no implementar ahora, pero diseñar la base de datos para que sea posible):
+     **competencias entre grupos** dentro de la página, con perfiles de alumnos, donde los grupos
+     compiten por promedio/nota. Requiere opt-in explícito, grupos y rankings.
+4. **Horas de materias electivas**: contador de horas electivas cursadas/aprobadas del usuario,
+   con el total requerido por el plan de cada carrera, visible en el panel de progreso.
+   Tomar los requisitos de horas electivas de los archivos de `planes-de-estudio/`.
+
+## Decisiones tomadas con Luis
+- "Horas de correlativas" estaba mal dicho: se refiere a **horas de materias electivas** (punto 4).
+- Privacidad de notas: personal por defecto, compartir es opcional; competencias a futuro.
 
 ## Pendientes de definir con Luis
-- "Horas de correlativas": ¿carga horaria de cada materia, total de horas acumuladas de la carrera,
-  o horas de las materias previas necesarias para cursar otra?
-- Nota: ¿la ve solo cada usuario o hay algo compartido entre compañeros (ranking)?
 - ¿Se puede exportar el código original de Enter (GitHub/carpeta)? Si sí, partir de ahí;
   si no, reconstruir desde capturas + datos de los planes.
 
