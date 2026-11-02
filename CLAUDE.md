@@ -43,9 +43,20 @@ Título: "Agenda Virtual de la UTN". Es un proyecto independiente, sin vínculo 
 - "Horas de correlativas" estaba mal dicho: se refiere a **horas de materias electivas** (punto 4).
 - Privacidad de notas: personal por defecto, compartir es opcional; competencias a futuro.
 
-## Pendientes de definir con Luis
-- ¿Se puede exportar el código original de Enter (GitHub/carpeta)? Si sí, partir de ahí;
-  si no, reconstruir desde capturas + datos de los planes.
+- Código: se rehízo desde cero (no se usa el export de Enter). Stack: Vite + React + TypeScript + Tailwind,
+  Supabase para cuentas y datos (Luis crea el proyecto; ver `docs/CONFIGURAR.md`), deploy a GitHub Pages.
+- Regla de correlativas: para cursar, columna "Cursada" regular o aprobada y columna "Aprobada" aprobada;
+  para rendir el final, todas aprobadas. Proyecto Final: todo el plan aprobado + horas electivas.
+- La sección "Agenda" (eventos) queda para más adelante; el botón aparece como "pronto".
+- Popover de correlativas como el original (lista con ✓/candado, año y "Faltan N correlativas"),
+  pero separado en "Para cursar" y "Para rendir el final".
+
+## Estructura del código
+- `src/data/carreras/*.json`: materias, correlativas, horas, integradoras y electivas de cada carrera.
+  Dudas de transcripción en `docs/DUDAS-DATOS.md`. Validar con `npm run validar`.
+- `src/lib/logica.ts`: reglas de cursar/rendir, situación de cada materia, promedio y horas (con tests).
+- `src/lib/almacen.ts`: guardado en Supabase (con sesión) o en localStorage (sin sesión).
+- `supabase/schema.sql`: tablas + RLS. Preparado para competencias entre grupos (opt-in `participa_competencias`).
 
 ## Datos de materias
 Los archivos de los planes de estudio y sus correlativas van en `planes-de-estudio/`
