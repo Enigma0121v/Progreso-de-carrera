@@ -1,0 +1,472 @@
+{
+  "id": "bioingenieria",
+  "nombre": "Bioingeniería",
+  "descripcion": "Ingeniería aplicada a la medicina y la biología: equipamiento médico, señales biológicas y rehabilitación.",
+  "color": "emerald",
+  "plan": "2023",
+  "ordenanzaPlan": "1944",
+  "ordenanzaCorrelativas": "CSU 2131 (modificación)",
+  "electivas": {
+    "horasRequeridas": 168,
+    "fuente": "Ord. 1944, plan de estudio: Electivas (Nº 33), quinto nivel, 7 hs cát. semanales, 168 h reloj"
+  },
+  "pps": {
+    "horas": 150,
+    "requisito": "Cumplir los requisitos académicos para inscribirse a Proyecto Final.",
+    "comoMateria": 41
+  },
+  "materias": [
+    {
+      "n": 1,
+      "nombre": "Ingeniería y Sociedad",
+      "nivel": 1,
+      "horas": 48,
+      "cursadas": [],
+      "aprobadas": []
+    },
+    {
+      "n": 2,
+      "nombre": "Análisis Matemático I",
+      "nivel": 1,
+      "horas": 120,
+      "cursadas": [],
+      "aprobadas": []
+    },
+    {
+      "n": 3,
+      "nombre": "Física I",
+      "nivel": 1,
+      "horas": 120,
+      "cursadas": [],
+      "aprobadas": []
+    },
+    {
+      "n": 4,
+      "nombre": "Álgebra y Geometría Analítica",
+      "nivel": 1,
+      "horas": 120,
+      "cursadas": [],
+      "aprobadas": []
+    },
+    {
+      "n": 5,
+      "nombre": "Sistemas de Representación",
+      "nivel": 1,
+      "horas": 72,
+      "cursadas": [],
+      "aprobadas": []
+    },
+    {
+      "n": 6,
+      "nombre": "Programación I",
+      "nivel": 1,
+      "horas": 96,
+      "cursadas": [],
+      "aprobadas": []
+    },
+    {
+      "n": 7,
+      "nombre": "Análisis Matemático II",
+      "nivel": 1,
+      "horas": 120,
+      "cursadas": [
+        2
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 8,
+      "nombre": "Química General",
+      "nivel": 1,
+      "horas": 120,
+      "cursadas": [],
+      "aprobadas": []
+    },
+    {
+      "n": 9,
+      "nombre": "Análisis de Señales y Sistemas",
+      "nivel": 2,
+      "horas": 120,
+      "cursadas": [
+        7
+      ],
+      "aprobadas": [
+        2,
+        4
+      ]
+    },
+    {
+      "n": 10,
+      "nombre": "Física II",
+      "nivel": 2,
+      "horas": 120,
+      "cursadas": [
+        2,
+        3
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 11,
+      "nombre": "Programación II",
+      "nivel": 2,
+      "horas": 120,
+      "cursadas": [
+        6
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 12,
+      "nombre": "Redes y Electrotecnia",
+      "nivel": 2,
+      "horas": 120,
+      "cursadas": [
+        3,
+        7
+      ],
+      "aprobadas": [
+        2,
+        3
+      ]
+    },
+    {
+      "n": 13,
+      "nombre": "Física III",
+      "nivel": 2,
+      "horas": 120,
+      "cursadas": [
+        10
+      ],
+      "aprobadas": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "n": 14,
+      "nombre": "Inglés I",
+      "nivel": 2,
+      "horas": 48,
+      "cursadas": [],
+      "aprobadas": []
+    },
+    {
+      "n": 15,
+      "nombre": "Biología",
+      "nivel": 3,
+      "horas": 96,
+      "cursadas": [
+        8
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 16,
+      "nombre": "Técnicas Digitales I",
+      "nivel": 3,
+      "horas": 96,
+      "cursadas": [
+        6
+      ],
+      "aprobadas": [
+        4
+      ]
+    },
+    {
+      "n": 17,
+      "nombre": "Electrónica Aplicada",
+      "nivel": 3,
+      "horas": 120,
+      "cursadas": [
+        10,
+        12
+      ],
+      "aprobadas": [
+        2,
+        3
+      ]
+    },
+    {
+      "n": 18,
+      "nombre": "Probabilidad y Estadística",
+      "nivel": 3,
+      "horas": 72,
+      "cursadas": [
+        2,
+        4
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 19,
+      "nombre": "Química Biológica",
+      "nivel": 3,
+      "horas": 72,
+      "cursadas": [],
+      "aprobadas": [
+        8
+      ]
+    },
+    {
+      "n": 20,
+      "nombre": "Legislación",
+      "nivel": 3,
+      "horas": 48,
+      "cursadas": [],
+      "aprobadas": [
+        1
+      ]
+    },
+    {
+      "n": 21,
+      "nombre": "Anatomía",
+      "nivel": 3,
+      "horas": 96,
+      "cursadas": [
+        15
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 22,
+      "nombre": "Gestión de Calidad, Higiene y Seguridad",
+      "nivel": 3,
+      "horas": 72,
+      "cursadas": [
+        12
+      ],
+      "aprobadas": [
+        1,
+        8,
+        9
+      ]
+    },
+    {
+      "n": 23,
+      "nombre": "Inglés II",
+      "nivel": 3,
+      "horas": 48,
+      "cursadas": [
+        14
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 24,
+      "nombre": "Taller de Práctica Profesional I",
+      "nivel": 3,
+      "horas": 48,
+      "cursadas": [
+        13
+      ],
+      "aprobadas": [],
+      "integradora": true
+    },
+    {
+      "n": 25,
+      "nombre": "Técnicas Digitales II",
+      "nivel": 4,
+      "horas": 120,
+      "cursadas": [
+        11,
+        16,
+        17
+      ],
+      "aprobadas": [
+        6
+      ]
+    },
+    {
+      "n": 26,
+      "nombre": "Sistemas de Control Básicos",
+      "nivel": 4,
+      "horas": 96,
+      "cursadas": [
+        9,
+        12,
+        17
+      ],
+      "aprobadas": [
+        12,
+        13
+      ]
+    },
+    {
+      "n": 27,
+      "nombre": "Fisiología",
+      "nivel": 4,
+      "horas": 96,
+      "cursadas": [
+        21
+      ],
+      "aprobadas": [
+        10,
+        15
+      ]
+    },
+    {
+      "n": 28,
+      "nombre": "Transductores y Sensores",
+      "nivel": 4,
+      "horas": 120,
+      "cursadas": [
+        3,
+        8,
+        10
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 29,
+      "nombre": "Biomateriales",
+      "nivel": 4,
+      "horas": 72,
+      "cursadas": [
+        19
+      ],
+      "aprobadas": [
+        8
+      ]
+    },
+    {
+      "n": 30,
+      "nombre": "Fisiopatología",
+      "nivel": 4,
+      "horas": 72,
+      "cursadas": [
+        27
+      ],
+      "aprobadas": [
+        15
+      ]
+    },
+    {
+      "n": 31,
+      "nombre": "Economía",
+      "nivel": 4,
+      "horas": 72,
+      "cursadas": [
+        16
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 32,
+      "nombre": "Taller de Práctica Profesional II",
+      "nivel": 4,
+      "horas": 48,
+      "cursadas": [
+        24
+      ],
+      "aprobadas": [],
+      "integradora": true
+    },
+    {
+      "n": 34,
+      "nombre": "Bioinstrumentación",
+      "nivel": 5,
+      "horas": 120,
+      "cursadas": [
+        25,
+        27,
+        28
+      ],
+      "aprobadas": [
+        17
+      ]
+    },
+    {
+      "n": 35,
+      "nombre": "Biomecánica",
+      "nivel": 5,
+      "horas": 72,
+      "cursadas": [
+        29
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 36,
+      "nombre": "Sistema de Gestión por Imágenes",
+      "nivel": 5,
+      "horas": 96,
+      "cursadas": [
+        27
+      ],
+      "aprobadas": [
+        13
+      ]
+    },
+    {
+      "n": 37,
+      "nombre": "Medicina Nuclear",
+      "nivel": 5,
+      "horas": 96,
+      "cursadas": [
+        13
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 38,
+      "nombre": "Ingeniería Hospitalaria",
+      "nivel": 5,
+      "horas": 96,
+      "cursadas": [
+        22
+      ],
+      "aprobadas": []
+    },
+    {
+      "n": 39,
+      "nombre": "Organización Industrial",
+      "nivel": 5,
+      "horas": 48,
+      "cursadas": [
+        31
+      ],
+      "aprobadas": [
+        25
+      ]
+    },
+    {
+      "n": 40,
+      "nombre": "Ingeniería en Rehabilitación",
+      "nivel": 5,
+      "horas": 72,
+      "cursadas": [
+        29
+      ],
+      "aprobadas": [
+        25,
+        28
+      ]
+    },
+    {
+      "n": 41,
+      "nombre": "Proyecto Final",
+      "nivel": 5,
+      "horas": 96,
+      "cursadas": [
+        32
+      ],
+      "aprobadas": [
+        25,
+        28,
+        30
+      ],
+      "integradora": true,
+      "soloCursar": true,
+      "rendirRequiereTodas": true
+    }
+  ],
+  "dudas": [
+    "La numeración sigue la modificación (CSU 2131), que reordena el 1er y 2do nivel respecto del plan original (Ord. 1944): Química General pasa a ser la Nº 8 de 1er nivel y Análisis de Señales y Sistemas la Nº 9. Las horas se tomaron del plan buscando por nombre.",
+    "La Nº 33 (Electivas, 168 h) no se cuenta como materia: va al contador de horas electivas. Por eso quedan 40 materias, igual que en la página original.",
+    "Integradoras: el plan nombra como 'proyectos integradores' a los Talleres de Práctica Profesional I y II; Proyecto Final se marcó también como integradora. Confirmar.",
+    "Fisiología figura como 'Fisiología Humana' en el plan y como 'Fisiología' en la modificación.",
+    "La ordenanza pide la misma correlativa como cursada y como aprobada en dos casos: 12 Redes y Electrotecnia (Física I) y 26 Sistemas de Control Básicos (Redes y Electrotecnia). Se respeta la condición más exigente (aprobada)."
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "electronica",
+  "nombre": "Ingeniería Electrónica",
+  "descripcion": "Sistemas electrónicos, procesamiento de señales, control y electrónica de potencia desde lo analógico a lo digital.",
+  "color": "amber",
+  "plan": "2023",
+  "ordenanzaPlan": "1849",
+  "ordenanzaCorrelativas": "Res. CD FRH 324/2023",
+  "electivas": {
+    "horasRequeridas": 192,
+    "fuente": "Ord. 1849, plan de estudio: Electivas (Nº 38), sexto nivel, 8 hs cát. semanales, 192 h reloj",
+    "ofertaFRH": [
+      { "nombre": "Introducción al Análisis de Señales y Sistemas", "nivel": 2, "cursadas": [3], "aprobadas": [] },
+      { "nombre": "Marketing", "nivel": 2, "cursadas": [4], "aprobadas": [] }
+    ]
+  },
+  "pps": { "horas": 200, "requisito": "Para iniciar y acreditar: 29, 30 y 32 cursadas; 22, 23, 25 y 27 aprobadas.", "cursadas": [29,30,32], "aprobadas": [22,23,25,27] },
+  "materias": [
+    { "n": 1,  "nombre": "Informática I",                   "nivel": 1, "horas": 120, "cursadas": [], "aprobadas": [] },
+    { "n": 2,  "nombre": "Álgebra y Geometría Analítica",   "nivel": 1, "horas": 120, "cursadas": [], "aprobadas": [] },
+    { "n": 3,  "nombre": "Análisis Matemático I",           "nivel": 1, "horas": 120, "cursadas": [], "aprobadas": [] },
+    { "n": 4,  "nombre": "Ingeniería y Sociedad",           "nivel": 1, "horas": 48,  "cursadas": [], "aprobadas": [] },
+    { "n": 6,  "nombre": "Física I",                        "nivel": 1, "horas": 120, "cursadas": [], "aprobadas": [] },
+    { "n": 7,  "nombre": "Diseño Asistido por Computadora", "nivel": 1, "horas": 72,  "cursadas": [], "aprobadas": [] },
+    { "n": 10, "nombre": "Química General",                 "nivel": 1, "horas": 120, "cursadas": [], "aprobadas": [] },
+    { "n": 5,  "nombre": "Análisis Matemático II",          "nivel": 2, "horas": 120, "cursadas": [2,3], "aprobadas": [] },
+    { "n": 8,  "nombre": "Informática II",                  "nivel": 2, "horas": 120, "cursadas": [1,2,3], "aprobadas": [] },
+    { "n": 11, "nombre": "Física II",                       "nivel": 2, "horas": 120, "cursadas": [3,6], "aprobadas": [], "cuatrimestre": 1 },
+    { "n": 12, "nombre": "Probabilidad y Estadística",      "nivel": 2, "horas": 72,  "cursadas": [2,3], "aprobadas": [] },
+    { "n": 13, "nombre": "Física Electrónica",              "nivel": 2, "horas": 120, "cursadas": [11], "aprobadas": [2,3,6], "cuatrimestre": 2 },
+    { "n": 14, "nombre": "Inglés I",                        "nivel": 2, "horas": 48,  "cursadas": [], "aprobadas": [] },
+    { "n": 9,  "nombre": "Análisis de Señales y Sistemas",  "nivel": 3, "horas": 144, "cursadas": [5], "aprobadas": [2,3] },
+    { "n": 15, "nombre": "Teoría de los Circuitos I",       "nivel": 3, "horas": 144, "cursadas": [5,11], "aprobadas": [3,6] },
+    { "n": 16, "nombre": "Técnicas Digitales I",            "nivel": 3, "horas": 96,  "cursadas": [1], "aprobadas": [2] },
+    { "n": 17, "nombre": "Dispositivos Electrónicos",       "nivel": 3, "horas": 120, "cursadas": [1,3,10], "aprobadas": [], "cuatrimestre": 1 },
+    { "n": 19, "nombre": "Electrónica Aplicada I",          "nivel": 3, "horas": 120, "cursadas": [10,11], "aprobadas": [1,3,6], "cuatrimestre": 2 },
+    { "n": 20, "nombre": "Medios de Enlace",                "nivel": 3, "horas": 96,  "cursadas": [5,11], "aprobadas": [2,3,6] },
+    { "n": 21, "nombre": "Inglés II",                       "nivel": 3, "horas": 48,  "cursadas": [], "aprobadas": [14] },
+    { "n": 22, "nombre": "Técnicas Digitales II",           "nivel": 4, "horas": 120, "cursadas": [8,16,19], "aprobadas": [10,11] },
+    { "n": 23, "nombre": "Medidas Electrónicas I",          "nivel": 4, "horas": 120, "cursadas": [9,15,16,19], "aprobadas": [5,10,11] },
+    { "n": 24, "nombre": "Teoría de los Circuitos II",      "nivel": 4, "horas": 120, "cursadas": [9,15], "aprobadas": [5,11] },
+    { "n": 18, "nombre": "Legislación",                     "nivel": 4, "horas": 48,  "cursadas": [8], "aprobadas": [4] },
+    { "n": 25, "nombre": "Máquinas e Instalaciones Eléctricas", "nivel": 4, "horas": 96, "cursadas": [9,15], "aprobadas": [5,11] },
+    { "n": 26, "nombre": "Sistemas de Comunicaciones",      "nivel": 4, "horas": 96,  "cursadas": [9,12,19,20], "aprobadas": [5,11] },
+    { "n": 27, "nombre": "Electrónica Aplicada II",         "nivel": 4, "horas": 120, "cursadas": [9,13,15,17,19], "aprobadas": [5,11,14] },
+    { "n": 28, "nombre": "Seguridad, Higiene y Medio Ambiente", "nivel": 4, "horas": 48, "cursadas": [], "aprobadas": [4,10] },
+    { "n": 29, "nombre": "Técnicas Digitales III",          "nivel": 5, "horas": 120, "cursadas": [22], "aprobadas": [8,16,19] },
+    { "n": 30, "nombre": "Medidas Electrónicas II",         "nivel": 5, "horas": 120, "cursadas": [22,23,26,27], "aprobadas": [7,13,15,16,19,21] },
+    { "n": 31, "nombre": "Sistemas de Control",             "nivel": 5, "horas": 96,  "cursadas": [24,25], "aprobadas": [13,15] },
+    { "n": 32, "nombre": "Electrónica Aplicada III",        "nivel": 5, "horas": 120, "cursadas": [24,26,27], "aprobadas": [13,15,19] },
+    { "n": 33, "nombre": "Tecnología Electrónica",          "nivel": 5, "horas": 120, "cursadas": [23], "aprobadas": [13,16,19] },
+    { "n": 34, "nombre": "Electrónica de Potencia",         "nivel": 5, "horas": 96,  "cursadas": [23,25,27], "aprobadas": [13,16,19] },
+    { "n": 35, "nombre": "Organización Industrial",         "nivel": 5, "horas": 48,  "cursadas": [18], "aprobadas": [] },
+    { "n": 36, "nombre": "Economía",                        "nivel": 5, "horas": 72,  "cursadas": [8], "aprobadas": [4] },
+    { "n": 37, "nombre": "Proyecto Final", "nivel": 6, "horas": 96, "cursadas": [29,30,32], "aprobadas": [22,23,25,27], "soloCursar": true, "rendirRequiereTodas": true }
+  ],
+  "dudas": [
+    "Niveles: se usa la distribución de la FRH (Res. CD 324/2023), que difiere de la Ord. 1849 (por ejemplo, Química General pasa a 1er nivel y Análisis Matemático II a 2do). Los números de materia son los de la Ord. 1849.",
+    "No hay ordenanza de correlativas de Rectorado en el repo: las correlativas salen de la tabla de la Res. 324/2023.",
+    "Integradoras: el plan (Ord. 1849) no marca materias integradoras por nombre. La página original marcaba 'Medidas Electrónicas I/II' como INTEGRADORA; falta confirmar cuáles son.",
+    "La página original muestra 38 materias; acá son 37 (las 37 del plan; las electivas van al contador de horas)."
+  ]
+}
